@@ -1,0 +1,100 @@
+{
+  "userSays": [
+    {
+      "id": "55e6ca54-ede5-401e-8faa-9bd69c1aa544",
+      "data": [
+        {
+          "text": "Paris",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " Climate Accord"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa316b78-b485-46cc-8d8a-e8683aa075b7",
+      "data": [
+        {
+          "text": "Paris",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " Accord"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c584f72-75b4-4422-a327-f6504a452543",
+      "data": [
+        {
+          "text": "Paris",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " Agreement"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "000fc9db-2d5d-480e-b84b-585c862b05a5",
+      "data": [
+        {
+          "text": "Paris",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "357eb553-4c79-49fa-b181-ab94d1e83152",
+  "name": "Paris Accord",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ParisAccord-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This year, Earth Day, marks the one-year anniversary of the signing of the monumental Paris Climate Accord. Ratified by 143 countries representing 83% of global emissions, the agreement aims to meet the ambitious but necessary target of limiting global warming to 1.5 degrees Celsius above pre-industrial levels by shifting the world economy to renewable energy. Learn about how you can support the Paris Agreement, learn more about what makes a city green, or lighten up with a joke or a quote?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

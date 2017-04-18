@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "9bf5068b-3f98-486b-86bc-3986fa80fe33",
+      "data": [
+        {
+          "text": "Tell me about Earth Day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1d135cfd-2add-4c84-a428-173eed20cf51",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Every Year on April 22nd, over one billion people worldwide participate in Earth Day, making it one of the largest secular events in the world. We’ve assembled some fun facts about the history of Earth Day, how you can help at home and in your community, interesting information about oceans, biodiversity, reforestation, and even some quotes and jokes. What would you like to hear about?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

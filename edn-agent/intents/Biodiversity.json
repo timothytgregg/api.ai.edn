@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "902a63db-7e08-481d-800c-32176bae4479",
+      "data": [
+        {
+          "text": "biodiversity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "38f14340-87f5-452c-8325-a1ec6a16096f",
+  "name": "Biodiversity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Biodiversity-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "We share our planet with at least 15 million species, though one recent study claims it could be as high as a trillion! Animals and plants depend on each other for food and habitat, and only robust and healthy ecosystems can withstand and recover from disaster. So although humans may seem to dominate the Earth, we depend on the preservation of biodiversity for the healthy ecosystems which sustain us. But biodiversity everywhere is being threatened. Can I tell you how, and what you can do to help?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "userSays": [
+    {
+      "id": "60d14766-2cba-43b6-924b-0f12f7e61d1e",
+      "data": [
+        {
+          "text": "support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7f0214f2-8416-4cef-b7ca-869d16337935",
+  "parentId": "357eb553-4c79-49fa-b181-ab94d1e83152",
+  "rootParentId": "357eb553-4c79-49fa-b181-ab94d1e83152",
+  "name": "Paris Accord - support",
+  "auto": true,
+  "contexts": [
+    "ParisAccord-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ParisAccord.ParisAccord-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Standing up in support of the Paris Climate accord is one of the most important actions you can take in protecting our planet. If you are in the Washington D.C. area, come to the Rally and March on the National Mall this saturday to show your support. You can also sign Earth Day Network’s petition to urge policy makers not to pull out of the accord at earthday.org/paris"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

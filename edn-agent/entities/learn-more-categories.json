@@ -1,0 +1,48 @@
+{
+  "id": "2a4defd2-4685-40d6-823b-2dacddedb5d2",
+  "name": "learn-more-categories",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Trees",
+      "synonyms": [
+        "reforestation",
+        "trees",
+        "forests",
+        "jungle",
+        "canopy"
+      ]
+    },
+    {
+      "value": "oceans",
+      "synonyms": [
+        "oceans",
+        "fish",
+        "fisheries",
+        "seas",
+        "water"
+      ]
+    },
+    {
+      "value": "Earth Day",
+      "synonyms": [
+        "Earth Day",
+        "Earth Day Network"
+      ]
+    },
+    {
+      "value": "Green Schools",
+      "synonyms": [
+        "Green Schools",
+        "education",
+        "kids",
+        "school",
+        "class",
+        "classroom",
+        "teachers"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,68 @@
+{
+  "userSays": [
+    {
+      "id": "4992bcc4-b94e-448b-a7eb-603ccd5149e4",
+      "data": [
+        {
+          "text": "History of "
+        },
+        {
+          "text": "Earth Day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93f01d43-a20b-495f-ac83-a3a3791e3761",
+      "data": [
+        {
+          "text": "Earth Day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "name": "Earth-Day",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Earth-Day-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Would you like to hear how Earth Day started in the first place, how Earth Day has catalyzed change, or why Earth Day is on April 22?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

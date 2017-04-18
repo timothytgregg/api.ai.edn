@@ -1,0 +1,46 @@
+{
+  "userSays": [
+    {
+      "id": "88c258f3-ff52-4804-9a33-5fa0b80fbc6b",
+      "data": [
+        {
+          "text": "Community"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "487ae5a3-7656-40f6-827a-57e3fc7d72d6",
+      "data": [
+        {
+          "text": "Home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d0f6d11b-f330-44f6-b678-315f4f996419",
+  "name": "Home-Community",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There are many things you can do in your own home. Start a compost bin of food scraps and other organic materials, sending them back to the land instead of the landfill. Study your energy bill. It shows where you’re using the most energy so you can make changes that save money and reduce carbon emissions."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

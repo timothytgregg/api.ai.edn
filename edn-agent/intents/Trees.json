@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "1c31b629-ff7d-4b2d-ae25-4b7811560e8a",
+      "data": [
+        {
+          "text": "reforestation",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21ade006-d868-4d1b-9807-1dadcb631206",
+      "data": [
+        {
+          "text": "trees",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e256e186-e487-4365-a360-819d9f4ce034",
+      "data": [
+        {
+          "text": "Tree",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ca3bbd8d-d370-41cb-be10-2c8ae212ab9b",
+  "name": "Trees",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Trees are the lungs of our planet. In addition to our inhalation and exhalation being in symbiosis with each other, forests provide habitat for 70% of the Earth\u0027s plants and animals. Their roots hold soil in place, preventing erosion, and we humans make use of their wood as a source of building material, fuel, and heat."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

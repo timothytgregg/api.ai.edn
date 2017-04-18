@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "b50f977c-2055-4642-aadb-715c805a6b6b",
+  "parentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "rootParentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "name": "Oceans - help",
+  "auto": true,
+  "contexts": [
+    "Oceans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Oceans.Oceans-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Use less plastic! Plastics cause confusing deaths for marine animals and get incorporated into the food chain. Choose sustainable seafood like farmed oysters, albacore tuna, harpooned swordfish and closed farm raised salmon. Always clean up after yourself at the beach, or participate in a local beach cleanup."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

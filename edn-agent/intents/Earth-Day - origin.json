@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "3dccd546-6ecb-4e26-b250-c9f44312ceb5",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82894b1e-1861-4f68-a045-ae2c200baa63",
+      "data": [
+        {
+          "text": "how did "
+        },
+        {
+          "text": "earth day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " start?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d69c6a4e-c65c-4176-9044-a552393f427d",
+      "data": [
+        {
+          "text": "origin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ae02eefd-d7b2-4b0f-8ec1-c6db95bd32bf",
+  "parentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "rootParentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "name": "Earth-Day - origin",
+  "auto": true,
+  "contexts": [
+    "Earth-Day-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Earth-Day.Earth-Day-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In the 1960s, people began to notice pollution more and more—dirty rivers, smog, dying birds, coughing children. In 1969, Senator Gaylord Nelson had just toured oil spills off the coast of Santa Barbara when he got the idea to hold college teach-ins on environment. He hired Denis Hayes to organize them. The idea caught on big time! On April 22, 1970, over 20 million Americans—and not just college students—held teach-ins and marched for the planet. It was the biggest march ever!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
