@@ -1,0 +1,56 @@
+{
+  "userSays": [
+    {
+      "id": "b6c6ee98-717e-4f6d-a211-ba4fa9342340",
+      "data": [
+        {
+          "text": "How can I help at home?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09384d61-04a0-49e1-b54b-02e58e302eb7",
+      "data": [
+        {
+          "text": "What can I do at home?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5d98b91-1e5c-4946-a829-c1dfa275f1a2",
+      "data": [
+        {
+          "text": "Home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d0f6d11b-f330-44f6-b678-315f4f996419",
+  "name": "Home",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "At home, you can compost your food scraps and other organic materials, study your energy bill to learn where you can save money and reduce carbon emissions, choose energy star appliances, and plant some flowers to support the health of your local pollinator population. Ask me how you can help in your community, or learn about something else."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,56 @@
+{
+  "userSays": [
+    {
+      "id": "e03ab5f7-825c-4b2a-abeb-afac03219401",
+      "data": [
+        {
+          "text": "What can I do in my community?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "566336ac-6c02-4dff-8e07-b476e7dc3797",
+      "data": [
+        {
+          "text": "How can I help in my community?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f9bd51f5-ef38-4d1b-bd44-444c6bb20866",
+      "data": [
+        {
+          "text": "Community"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "be8cb3a7-4cd2-423e-9470-b9a989ae02db",
+  "name": "Community",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "To help in your community, support local businesses and attend town hall meetings to express your advocacy for pro-environmental policies. Organize a group of neighbors to clean up a local park, plant trees, or write letters to your elected officials. You are also encouraged to host a teach-in for your community by making use of the toolkits we have put together at earthday.org/toolkits. What else can I tell you about?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

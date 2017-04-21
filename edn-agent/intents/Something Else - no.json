@@ -1,0 +1,141 @@
+{
+  "userSays": [
+    {
+      "id": "6a8543fc-3d38-4056-824c-cae20229434b",
+      "data": [
+        {
+          "text": "none of those"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3bff1429-4426-47d6-aa67-317996f6576f",
+      "data": [
+        {
+          "text": "none"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a01ffe5f-4a6e-4144-a8e4-f3bb0f0115fb",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f754930c-a1d0-4b64-ae4a-6efd989ffee6",
+      "data": [
+        {
+          "text": "don\u0027t do it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0328fcf-b9be-4b9b-a1ed-5b34cfc119be",
+      "data": [
+        {
+          "text": "definitely not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25593e7e-9b8b-414d-8e80-92dd6619247f",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "535290b3-88f1-4a4b-9f23-3ca42ea0e040",
+      "data": [
+        {
+          "text": "thanks but no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a643634-9cbf-4ac8-b813-c555e04a8cbd",
+      "data": [
+        {
+          "text": "not interested"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6b6920e-668b-4982-9651-1dd2b3213f88",
+      "data": [
+        {
+          "text": "I don\u0027t think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bece4ee1-da70-4ef2-a67f-6a853fa125e9",
+      "data": [
+        {
+          "text": "I disagree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a48131d9-68d7-4328-bb5e-b612b249cc0d",
+      "data": [
+        {
+          "text": "I don\u0027t want that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e5fc02b8-af1b-4cd6-9740-f9ac58e4cf15",
+  "parentId": "e1ec9ede-5730-4ab3-87fe-7197ffb23724",
+  "rootParentId": "e1ec9ede-5730-4ab3-87fe-7197ffb23724",
+  "name": "Something Else - no",
+  "auto": true,
+  "contexts": [
+    "SomethingElse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SomethingElse.SomethingElse-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, thanks for taking the time to learn about Earth Day!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

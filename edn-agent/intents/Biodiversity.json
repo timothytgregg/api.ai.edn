@@ -1,6 +1,76 @@
 {
   "userSays": [
     {
+      "id": "5591d188-e4ea-4444-8cab-a3b86ea2636a",
+      "data": [
+        {
+          "text": "mammals"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dbbde4a3-5b3d-4d0c-8f8c-0082fa954da8",
+      "data": [
+        {
+          "text": "insects"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f27699cd-b9d3-4b86-bed5-1f86ec17bf0e",
+      "data": [
+        {
+          "text": "animals"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7ea084e-31bb-40f8-a0e9-e590d5f89ce2",
+      "data": [
+        {
+          "text": "plants"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ff47178-75da-4cf8-9572-ce6343469e95",
+      "data": [
+        {
+          "text": "anthropocene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47a19a88-2864-45cd-bf3f-b1c42988da30",
+      "data": [
+        {
+          "text": "extinction"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be19232e-0f34-4f62-8368-98a73ec92af8",
+      "data": [
+        {
+          "text": "species"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "902a63db-7e08-481d-800c-32176bae4479",
       "data": [
         {
@@ -29,7 +99,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "We share our planet with at least 15 million species, though one recent study claims it could be as high as a trillion! Animals and plants depend on each other for food and habitat, and only robust and healthy ecosystems can withstand and recover from disaster. So although humans may seem to dominate the Earth, we depend on the preservation of biodiversity for the healthy ecosystems which sustain us. But biodiversity everywhere is being threatened. Can I tell you how, and what you can do to help?"
+          "speech": "We share our planet with at least 15 million species, though one recent study claims it could be as high as a trillion! Animals and plants depend on each other for food and habitat, and only robust and healthy ecosystems can withstand and recover from disaster. So although humans may seem to dominate the Earth, we depend on the preservation of biodiversity for the healthy ecosystems which sustain us. Biodiversity everywhere is being threatened though. Can I tell you how you can help?"
         }
       ]
     }

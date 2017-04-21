@@ -1,10 +1,16 @@
 {
   "userSays": [
     {
-      "id": "9bf5068b-3f98-486b-86bc-3986fa80fe33",
+      "id": "134bb06e-fbdd-4097-8879-882cc225ea75",
       "data": [
         {
-          "text": "Tell me about Earth Day"
+          "text": "Ok Google, talk to "
+        },
+        {
+          "text": "Earth Day.",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
         }
       ],
       "isTemplate": false,
@@ -26,11 +32,18 @@
           "lifespan": 2
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
-          "speech": "Every Year on April 22nd, over one billion people worldwide participate in Earth Day, making it one of the largest secular events in the world. We’ve assembled some fun facts about the history of Earth Day, how you can help at home and in your community, interesting information about oceans, biodiversity, reforestation, and even some quotes and jokes. What would you like to hear about?"
+          "speech": "Every Year on April 22nd, over one billion people worldwide participate in Earth Day, making it one of the largest secular events in the world. We’ve assembled some interesting information about the History of Earth Day, Oceans, Biodiversity, Reforestation, and more. What would you like to hear about?"
         }
       ]
     }
@@ -42,6 +55,9 @@
   "events": [
     {
       "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
     }
   ]
 }

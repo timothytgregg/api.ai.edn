@@ -1,6 +1,16 @@
 {
   "userSays": [
     {
+      "id": "35d58e2c-e20f-412f-bcec-38d0060950b9",
+      "data": [
+        {
+          "text": "Tell me about Earth Day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "4992bcc4-b94e-448b-a7eb-603ccd5149e4",
       "data": [
         {
@@ -55,7 +65,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Would you like to hear how Earth Day started in the first place, how Earth Day has catalyzed change, or why Earth Day is on April 22?"
+          "speech": "Since its inception in 1970, Earth Day has been an inspiration for public policy, community action, and environmental awareness worldwide. Would you like to hear more about how Earth Day started in the first place, or why Earth Day is so important?"
         }
       ]
     }

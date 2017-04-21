@@ -1,6 +1,10 @@
 {
   "description": "Learn more about Earth Day",
   "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
   "googleAssistant": {
     "googleAssistantCompatible": true,
     "invocationName": "Earth Day",

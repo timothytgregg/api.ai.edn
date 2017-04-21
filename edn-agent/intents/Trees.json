@@ -1,7 +1,84 @@
 {
   "userSays": [
     {
-      "id": "1c31b629-ff7d-4b2d-ae25-4b7811560e8a",
+      "id": "480fd058-c8a9-4390-bec7-63ee35cf1a81",
+      "data": [
+        {
+          "text": "forest"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f15028e-0f5b-4134-92b4-bff22530d97f",
+      "data": [
+        {
+          "text": "forests",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cfbf0ac-8fe8-4bf1-95fe-e2ed13e0f000",
+      "data": [
+        {
+          "text": "please tell me about "
+        },
+        {
+          "text": "forests",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e149f731-4c11-4caf-a506-86191a9696b6",
+      "data": [
+        {
+          "text": "tell me about "
+        },
+        {
+          "text": "reforestation",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97d1dbf2-c837-4c55-a62e-f711461a0760",
+      "data": [
+        {
+          "text": "tell me about "
+        },
+        {
+          "text": "trees",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a01c70c-4174-4a82-b038-ec9544b68b8d",
       "data": [
         {
           "text": "reforestation",
@@ -14,23 +91,10 @@
       "count": 0
     },
     {
-      "id": "21ade006-d868-4d1b-9807-1dadcb631206",
+      "id": "a14c44dc-c382-41d5-b00d-95b38445ece0",
       "data": [
         {
           "text": "trees",
-          "alias": "learn-more-categories",
-          "meta": "@learn-more-categories",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "e256e186-e487-4365-a360-819d9f4ce034",
-      "data": [
-        {
-          "text": "Tree",
           "alias": "learn-more-categories",
           "meta": "@learn-more-categories",
           "userDefined": false
@@ -47,7 +111,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "Trees-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
           "dataType": "@learn-more-categories",
@@ -59,7 +129,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Trees are the lungs of our planet. In addition to our inhalation and exhalation being in symbiosis with each other, forests provide habitat for 70% of the Earth\u0027s plants and animals. Their roots hold soil in place, preventing erosion, and we humans make use of their wood as a source of building material, fuel, and heat."
+          "speech": "Forests provide habitat for 70% of Earth\u0027s plants and animals, and a single acre of trees can sequester 30,000 pounds per year of carbon from our atmosphere. They are the lungs of our planet and their roots prevent erosion by holding soil in place. We make use of their wood for building material, fuel, and heat. However, deforestation is happening at an alarming rate. Can I tell you what you can do to help?"
         }
       ]
     }

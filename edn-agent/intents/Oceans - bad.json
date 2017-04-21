@@ -1,0 +1,155 @@
+{
+  "userSays": [
+    {
+      "id": "99653e9c-c4e9-4b36-9dc1-480502cab28a",
+      "data": [
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30cee1d4-a12b-4367-8bc6-d246d0bd409d",
+      "data": [
+        {
+          "text": "any"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be90f197-7ccf-4436-9019-5a0121caaa0e",
+      "data": [
+        {
+          "text": "either"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "374ae68d-c6a3-487d-9cff-4a9786200cc8",
+      "data": [
+        {
+          "text": "bleak"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84cc047c-e363-49bf-a19d-54b2161a6110",
+      "data": [
+        {
+          "text": "let\u0027s hear the bad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dae26c9b-8481-4118-a55e-ab8e76a8d05c",
+      "data": [
+        {
+          "text": "bad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3065e347-1ad2-4ee2-9fed-7e41f20e99bb",
+      "data": [
+        {
+          "text": "tell me the bad news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e066904c-9125-4e1c-9f37-b4ea83417bd3",
+      "data": [
+        {
+          "text": "what\u0027s the bad news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4af50489-58df-4d49-91d6-1a6d1a3e722f",
+      "data": [
+        {
+          "text": "bad news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee7a7026-35c7-4aed-bcf8-ea6bccb848bc",
+      "data": [
+        {
+          "text": "bleak news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e6c10077-62c5-43c9-9047-e69c0c659073",
+  "parentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "rootParentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "name": "Oceans - bad",
+  "auto": true,
+  "contexts": [
+    "Oceans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Oceans.Oceans-custom",
+      "affectedContexts": [
+        {
+          "name": "Oceans-bad-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Oceans-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "More than 92% of the coral in the Great Barrier Reef is already bleached or dying, and the last time there was this much carbon in the atmosphere, sea levels were at least 40 feet higher. The latest models predict that under business as usual, in 2050 there will be more plastic than fish in the oceans, and warming waters will lead to more severe storms. You can nevertheless make an impact by decreasing your carbon footprint, choosing sustainable seafood, reducing your use of plastic, and standing up for pro-environmental policy. Would you like to hear the good news, an uplifting quote, or something else?",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

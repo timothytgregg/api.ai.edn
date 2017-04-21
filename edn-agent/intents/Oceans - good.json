@@ -1,0 +1,105 @@
+{
+  "userSays": [
+    {
+      "id": "f2636a01-ee55-4502-8bf7-3a6d771ed62f",
+      "data": [
+        {
+          "text": "good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb5a100d-c658-479c-96a4-dd817d6cf800",
+      "data": [
+        {
+          "text": "good news please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "132a872b-4a51-45e6-9229-bfb27cec99ca",
+      "data": [
+        {
+          "text": "What\u0027s the good news?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49c0c3df-e539-44be-8da4-303397a7f946",
+      "data": [
+        {
+          "text": "I\u0027d like to hear the good news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5aae72d-d7b4-4e82-857f-65f39c906cdf",
+      "data": [
+        {
+          "text": "tell me the good news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3680c56-b3fc-4338-89a9-af8ff7557d91",
+      "data": [
+        {
+          "text": "good news"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "41ea0720-7741-4978-b1ba-70927054eb75",
+  "parentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "rootParentId": "e81e435f-20fc-4859-a291-65a7aa6c7634",
+  "name": "Oceans - good",
+  "auto": true,
+  "contexts": [
+    "Oceans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Oceans.Oceans-custom",
+      "affectedContexts": [
+        {
+          "name": "Oceans-good-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Oceans-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "In 2016, President Barack Obama increased our protected ocean habitat by over a million and half square kilometers by expanding the Papahānaumokuākea Marine National Monument in Hawaii and creating the first US marine national monument in the Atlantic. This leaves the U.S. with more than 30% of its territorial waters protected in some way. Would you like to hear the bad news, an uplifting quote, or something else?",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

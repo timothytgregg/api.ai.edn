@@ -1,0 +1,163 @@
+{
+  "userSays": [
+    {
+      "id": "3d95dab8-d370-4b2d-aa06-15e1d70ef95b",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1111a913-4b15-4c3c-8e48-4cddc6054c48",
+      "data": [
+        {
+          "text": "how did it begin?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a96d59f6-7826-40c6-8314-a5b67560ada7",
+      "data": [
+        {
+          "text": "how did it start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c54a453b-b2fb-4b1a-9587-4fbaa59e943c",
+      "data": [
+        {
+          "text": "how did "
+        },
+        {
+          "text": "Earth Day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " begin?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94b1e1a6-bf6c-45c3-a5bc-84978640aefc",
+      "data": [
+        {
+          "text": "why did "
+        },
+        {
+          "text": "Earth Day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " start in the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " place?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b34e361-da4f-4e50-a1d5-8b428740d930",
+      "data": [
+        {
+          "text": "how it began"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1c891049-238d-48fd-a31b-9dad0d2743d4",
+      "data": [
+        {
+          "text": "how it started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82894b1e-1861-4f68-a045-ae2c200baa63",
+      "data": [
+        {
+          "text": "how did "
+        },
+        {
+          "text": "earth day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " start?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d69c6a4e-c65c-4176-9044-a552393f427d",
+      "data": [
+        {
+          "text": "origin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ae02eefd-d7b2-4b0f-8ec1-c6db95bd32bf",
+  "parentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "rootParentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "name": "Earth-Day - history",
+  "auto": true,
+  "contexts": [
+    "Earth-Day-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Earth-Day.Earth-Day-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Throughout the 1950s and 60s, pollution became more noticeable. Dirty rivers, smog, dying birds, and coughing children dotted our landscape. After having just toured oil spills off the coast of Santa Barbara, Senator Gaylord Nelson got the idea to hold college teach-ins to cultivate awareness about environmental issues. He hired Denis Hayes to organize them, and the idea caught on big time! On April 22, 1970, over 20 million Americans—not just college students—held teach-ins and marched for the planet. This year we continue the tradition! What else can I tell you about?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

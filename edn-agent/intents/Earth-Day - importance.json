@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "83000774-9bcf-4879-a99d-4d02c97a36b5",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9470ced3-4354-4c87-9659-8bbf56439134",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdb316c0-2bea-40fc-b08c-3f57e537189c",
+      "data": [
+        {
+          "text": "its importance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c657fb7-7ae7-4285-94d1-12551913a01e",
+      "data": [
+        {
+          "text": "tell me about its importance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5a23944-6ccf-4158-87c9-3c4dc6a961c7",
+      "data": [
+        {
+          "text": "why it\u0027s important"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92de6645-973f-425e-a3e6-8a5fe957f5b5",
+      "data": [
+        {
+          "text": "why is it important"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31c3e963-4cfc-44f2-8e3d-8ab40518631f",
+      "data": [
+        {
+          "text": "tell me why it\u0027s important"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38035f10-a3b8-4504-80d6-ff8aec2902af",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd86f62d-5972-40d9-8d06-cf2e2f20c345",
+      "data": [
+        {
+          "text": "more about "
+        },
+        {
+          "text": "earth day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6f797f5-39f7-463f-8856-26f308cca391",
+      "data": [
+        {
+          "text": "why is "
+        },
+        {
+          "text": "earth day",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        },
+        {
+          "text": " important?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a640ebc-a4f7-4ed3-bcff-5afdaa638f81",
+      "data": [
+        {
+          "text": "important"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "481bf428-c89c-4394-b438-8125678955c0",
+      "data": [
+        {
+          "text": "importance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "656990bd-fb19-49d2-a50a-45dddb24ec24",
+  "parentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "rootParentId": "e80b84ea-a7bb-4b8b-b3c4-1db9bbd43fbe",
+  "name": "Earth-Day - importance",
+  "auto": true,
+  "contexts": [
+    "Earth-Day-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Earth-Day.Earth-Day-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@learn-more-categories",
+          "name": "learn-more-categories",
+          "value": "$learn-more-categories",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Historically, Earth Day has catalyzed important political change, such as the Environmental Protection Agency, the Clean Air and Water Acts, and the Endangered Species Act. Worldwide, it gives everyone the opportunity to step up and take action for the planet. What else can I tell you about? We have info on Reforestation, the Paris Climate Agreement, and what you can do to help at Home or in your Community."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

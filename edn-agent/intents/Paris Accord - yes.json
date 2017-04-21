@@ -1,0 +1,171 @@
+{
+  "userSays": [
+    {
+      "id": "318c7294-1d56-4e6c-a4ec-81efa79eeeca",
+      "data": [
+        {
+          "text": "how can I support the agreement?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a4d923b-ce49-49c5-85bd-5530b8bf3d4c",
+      "data": [
+        {
+          "text": "how can I support?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "026c8db6-c1bd-483a-961e-a10f520efd9a",
+      "data": [
+        {
+          "text": "support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3a7cada-3c23-4cf7-ad16-bab0fc4f32b0",
+      "data": [
+        {
+          "text": "go ahead"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cc0a5b5-e47a-4878-9976-de3ffd28d778",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97f99f27-1bd2-4f95-bc34-71414dd5826b",
+      "data": [
+        {
+          "text": "do it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "942ca518-c590-4ac8-9b80-90cd2bc46423",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "4bc65ccc-ae5b-461e-beb0-ce2ee60c81a5",
+      "data": [
+        {
+          "text": "exactly"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc469439-b6e9-4c7b-87cd-a53d3c492f01",
+      "data": [
+        {
+          "text": "confirm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3615624d-6b6c-4b73-aaf4-c8b9a95485c9",
+      "data": [
+        {
+          "text": "of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff59a156-54ce-4fac-bfd8-4cd84dec7e8b",
+      "data": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c35a2ea1-c4c3-4098-98b6-2d1352411ed8",
+      "data": [
+        {
+          "text": "that\u0027s correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ee444c5-27ae-44a4-b073-7086d54e55bb",
+      "data": [
+        {
+          "text": "I don\u0027t mind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "505c4163-58c9-413a-9925-7223e290d754",
+      "data": [
+        {
+          "text": "I agree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "3acd3b2e-4965-42b5-a39d-6affbff19c38",
+  "parentId": "357eb553-4c79-49fa-b181-ab94d1e83152",
+  "rootParentId": "357eb553-4c79-49fa-b181-ab94d1e83152",
+  "name": "Paris Accord - yes",
+  "auto": true,
+  "contexts": [
+    "ParisAccord-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ParisAccord.ParisAccord-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Standing up in support of the Paris Climate accord is one of the most important actions you can take to protect our planet. If you are in the Washington D.C. area, come to the Rally and March on the National Mall this Earth Day to show your support. Or sign Earth Day Network’s petition to urge policy makers to not pull out of the accord at earthday.org/paris. What else would you like to learn about?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

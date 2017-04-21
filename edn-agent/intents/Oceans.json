@@ -1,6 +1,38 @@
 {
   "userSays": [
     {
+      "id": "8fd55f41-360f-40e9-8d12-ab443297dd25",
+      "data": [
+        {
+          "text": "tell me about the "
+        },
+        {
+          "text": "oceans",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e3cb8b4-2a66-4901-8830-66c59ab7f631",
+      "data": [
+        {
+          "text": "tell me about "
+        },
+        {
+          "text": "oceans",
+          "alias": "learn-more-categories",
+          "meta": "@learn-more-categories",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "72922b54-a8cd-4429-aab2-44213e9802ff",
       "data": [
         {
@@ -39,7 +71,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Oceans cover 75% of the earth’s surface and house between 50 and 80% of all life on earth.  More than one-third of the world’s population relies on marine biodiversity for their income. Oceans also serve as a huge carbon sink, but only 1% of our world’s oceans are currently protected! Hear more about the importance of oceans, how they are affected by climate change, or what you can do to help?"
+          "speech": "Oceans house between 50 and 80% of all life on earth, and at least one-third of the world’s population relies on marine biodiversity for their income. The oceans are the largest carbon sink on Earth, and the foundation of life on Earth, but only 1% of our world’s oceans are currently protected! I have good news and bad news about our Oceans. Which would you like to hear?"
         }
       ]
     }

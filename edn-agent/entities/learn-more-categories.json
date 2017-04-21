@@ -14,7 +14,7 @@
       ]
     },
     {
-      "value": "oceans",
+      "value": "Oceans",
       "synonyms": [
         "oceans",
         "fish",
@@ -40,6 +40,22 @@
         "class",
         "classroom",
         "teachers"
+      ]
+    },
+    {
+      "value": "Biodiversity",
+      "synonyms": [
+        "Biodiversity",
+        "Species",
+        "Variety"
+      ]
+    },
+    {
+      "value": "Community",
+      "synonyms": [
+        "Community",
+        "local",
+        "neighbors"
       ]
     }
   ],

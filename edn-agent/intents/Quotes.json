@@ -1,0 +1,150 @@
+{
+  "userSays": [
+    {
+      "id": "1b7e89c7-3237-4795-8956-948a676d3bb7",
+      "data": [
+        {
+          "text": "prominent figure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ace0dba7-14e7-480e-b770-c1da93097407",
+      "data": [
+        {
+          "text": "uplift"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b4d64b6-ad18-4e1b-ae47-8fcfc8be5125",
+      "data": [
+        {
+          "text": "uplifting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13eb28e7-8941-401a-b705-d0c917597edd",
+      "data": [
+        {
+          "text": "tell me a quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f359afcb-180c-4cec-b53a-2c4dd894a213",
+      "data": [
+        {
+          "text": "could I hear a quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c048ed37-3fa8-43a7-bff4-1f3f69133d9b",
+      "data": [
+        {
+          "text": "quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fcfb3554-4e19-4ef1-8b49-2df969b57ce5",
+      "data": [
+        {
+          "text": "please tell me an uplifting quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ce55e61-76b9-4401-b7e5-244835f53339",
+      "data": [
+        {
+          "text": "please tell me a quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70aa2e7f-bc7a-44b1-8de8-7614c2a1bb6a",
+      "data": [
+        {
+          "text": "uplifting quote please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bedb29ea-bc25-45c1-a637-096f731d6f39",
+      "data": [
+        {
+          "text": "uplifting quote"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d617313-8c64-4dbc-808f-79afe8954ffb",
+      "data": [
+        {
+          "text": "Quotes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "af43dd27-1102-47a7-a33d-0bc75e5e439f",
+  "name": "Quotes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Quotes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Pope Francis has recently championed the importance of Care for our Common Home:\n\"Never have we so hurt and mistreated our common home as we have in the last 200 years, Yet all is not lost. Human beings, while capable of the worst, are also capable of rising above themselves, choosing again what is good, and making a new start.” Would you like to hear another quote, or learn about something else?",
+            "John Muir once said that the clearest way into the Universe is through a forest wilderness. Would you like to hear another quote, or learn about something else?",
+            "Rachel Carson, Author of Silent Spring once wrote that in every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth. Would you like to hear another quote, or learn about something else?",
+            "",
+            "Jacques Cousteau, the great Oceanologist once said that the sea, the great unifier, is man\u0027s only hope. Now, as never before, the old phrase has a literal meaning: we are all in the same boat. Would you like to hear another quote, or learn about something else?",
+            "",
+            "The Dalai Lama has said that  “The roots of all goodness lie in the soil of appreciation.”  Would you like to hear another quote, or learn about something else?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
